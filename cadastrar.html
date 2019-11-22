@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>SAPD</title>
+  <link rel="stylesheet" type="text/css" href="css.css"> 
+  <script src="high-contrast.js"></script> 
+  <script src="tamanhoFonte.js"></script>
+</head>
+
+<body>
+    <header>
+      	<div class="barraAcessibilidade">
+        <button id="acessibilidade" href="#altocontraste" id="altocontraste" accesskey="3" onclick="window.toggleContrast()" onkeydown="window.toggleContrast()">Alto contraste</button>
+        <button type="button" id="increase-font">A +</button>
+        <button type="button" id="decrease-font">a -</button>
+      	</div>    
+    </header>
+
+
+    <div id="areaBranca" >
+    	<h3 id="tituloSolicitacoes">Novas Solicitações</h3>
+         <p id="cadastrar">Por favor preencha os campos abaixo com seus dados para realizar o cadastro.</p>
+    
+      <div class="areaBrancaAcompanhar">
+
+    	<div id="acompanharSolicitacoes" >
+	        <div id="pedidos">
+	        
+          <form action="action_page.php">
+
+  <div class="container">
+
+
+    <label for="email"><b>Nome Completo</b></label><br>
+    <input type="text" placeholder="Insira seu nome" name="nome" required>
+
+   <label for="email"><b>Numero de matricula</b></label><br>
+    <input type="text" placeholder="Insira seu numero de matricula" name="matricula" required>
+
+    <label for="email"><b>Email</b></label><br>
+    <input type="text" placeholder="Insira seu email" name="email" required>
+
+    <label for="email"><b>Campus</b></label><br>
+          <select id="selectCadastro"  id="formato" name="formato">
+          <option value="formato1">PICI</option>
+          <option value="formato2">CH 1</option>
+          <option value="formato2">CH 2</option>
+          <option value="formato2">Porangabuçu</option>
+          <option value="formato2">Sobral</option>
+         </select>
+<br>
+    <label for="email"><b>Cuso</b></label><br>
+    <input type="text" placeholder="Insira seu curso" name="curso" required>
+
+    <label for="psw"><b>Criar uma senha</b></label><br><br>
+    <input type="password" placeholder="Digite uma Senha" name="psw" required>
+
+    <label for="psw-repeat"><b>Repita a senha</b></label><br>
+    <input type="password" placeholder="Repita a senha" name="psw-repeat" required>
+    <br>
+
+    <p id="cadastrar">Clique em <b>enviar</b> para validar o seu cadastro.</p>
+  </div>
+
+</form>    
+
+
+    		</div>
+     	</div>
+     </div>
+      <div class="icon-ajudaAcompanhar">
+          <a href="confirmarCasdatro.html" class="ajudaAcompanhar"><b>Enviar</b></a>
+      </div>
+      <div class="icon-voltarAcompanhar">
+          <a href="index1.html" class="voltarAcompanhar"><b>Voltar</b></a>
+      </div>
+            <div class="icon-pesquisarAcompanhar">
+          <a href="pesquisar.html" class="pesquisarAcompanhar"><b>Ajuda</b></a>
+      </div> 
+ 
+    </div> 
+
+
+
+</body>
+</html>
+
+
+    	

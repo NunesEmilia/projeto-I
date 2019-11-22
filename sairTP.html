@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8"/>
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<title>SAPD</title>
+	<link rel="stylesheet" type="text/css" href="css.css"> 
+  <script src="high-contrast.js"></script>
+  <script src="tamanhoFonte.js"></script> 
+</head>
+
+<body>
+  	<header>
+  		<div class="barraAcessibilidade">
+        <button id="acessibilidade" href="#altocontraste" id="altocontraste" accesskey="3" onclick="window.toggleContrast()" onkeydown="window.toggleContrast()">Alto contraste</button>
+        <button type="button" id="increase-font">A +</button>
+        <button type="button" id="decrease-font">a -</button>
+  		</div>		
+  	</header>
+
+    <div id="areaBrancaSairSolicitacao">
+      <h1>Tem certeza que deseja sair?</h1>
+      <div class="icon-simSolicitacao">
+        <a href="index1.html" onclick="window.close();" target="_blank" class="sair"><b>Sim</b></a>
+      </div>
+      <div class="icon-naoSolicitacao">
+        <a href="index.html" class="sairNao" style="color:white"><b>Não</b></a>
+      </div>
+    </div>
+</body>
+</html>

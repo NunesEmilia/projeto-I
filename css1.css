@@ -1,0 +1,254 @@
+
+ :root{
+	--cor1:#67dacf;
+	--cor2:#191970;
+	--cor3:#ffffff;
+	--cor4:#94eae4;
+}
+@font-face {
+
+     font-family: APHont;
+     font-weight: normal;
+     src: url('APHont.ttf');
+
+}
+
+body{
+	font-size: 18px;
+  background: url("imagens/sapdbg.png") #94eae4 ;
+	font-family: "APHont";
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+}
+button {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  box-shadow: -3.23px 12px 42px -20px #387f6d;
+}
+#area{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	box-shadow: -3.23px 12px 42px -20px #387f6d;
+	width: 35vw;
+	height: 75vh;	
+	align-items: center;
+}
+.line-1{
+	display: flex;
+	align-content: center;
+  	align-items: center;
+	position: static;
+	padding-bottom: 2vh;
+	justify-content: center;
+}
+.line-2{
+	width:100vw;
+	display: flex;
+	flex-direction: column;
+	font-family: "APHont";
+	align-items: center;
+	line-height:18px;
+	font-weight: normal;
+}
+
+ #imgLogo{
+	width: 6vw;
+	height: 8vh;
+	padding-bottom: 2vw;
+ }
+
+.titulo{
+	margin:5px;
+	margin-bottom: 10px;
+	font-weight: normal;
+}
+#tituloLogin{
+	width: 70%;
+	text-align: center;
+	font-weight: normal;
+}
+
+.subtitulo {
+    margin: 2px;
+    font-weight: normal;
+}
+
+/* estilo do forms */
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;  	box-shadow: -3.23px 12px 42px -20px #387f6d;
+}
+
+/* estilo dos icones */
+.icon {
+  padding: 10px;
+  background: #6bbacc;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+  border-top-left-radius:6px;
+  border-bottom-left-radius:6px;
+  font-size: 22px;
+}
+
+/* estilo campos de texto */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border-top-right-radius:6px;
+  border-bottom-right-radius:6px;
+  font-size: 19px;
+}
+
+.input-field:focus {
+  border: 2px solid #6bbacc;
+}
+
+/* estilo do botão de enviar */
+.btn {
+  background-color: #6bbacc;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius:6px;
+  font-size: 19px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+/*-------------conteudo-----------------------*/
+
+.content{
+	width: 100vw;
+	height: 70vh;
+	padding-top: 3vh;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#telaLogin{
+	width: 30vw;
+	height: 51vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: "APHont";
+	border-radius: 4%;
+	background-color: white;
+	box-shadow: -3.23px 12px 42px -20px #387f6d;
+}
+
+#recuperar{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	bottom:0%;
+	
+	align-items: center;
+	width: 100%;
+	background-color:#6bbacc;
+  	
+  	border-bottom-left-radius: 8px;
+  	border-bottom-right-radius: 8px;
+  	color: white;
+  	font-family: "APHont";
+    font-size: 2.5vh;
+}
+
+
+
+/* ..................................................................................................... */
+/* ALTO CONTRASTE */
+.contrast,
+.contrast nav,
+.contrast div,
+.contrast li,
+.contrast ol,
+.contrast header,
+.contrast footer,
+.contrast section,
+.contrast main,
+.contrast aside,
+.contrast footer,
+.contrast article,
+.contrast div{
+    background: black !important;
+    color: white !important;
+}
+
+.contrast h1,
+.contrast h2,
+.contrast h3,
+.contrast h4,
+.contrast h5,
+.contrast h6,
+.contrast p,
+.contrast label,
+.contrast strong,
+.contrast em,
+.contrast cite,
+.contrast q,
+.contrast i,
+.contrast b,
+.contrast u,
+.contrast span {
+    color: white !important;
+}
+
+.contrast a{
+    color: yellow !important;
+}
+
+.contrast button,
+.contrast input[type=button],
+.contrast input[type=reset],
+.contrast input[type=submit] {
+    background: black !important;
+    color: yellow !important;
+    border: none !important;
+}
+
+.contrast input[type=text],
+.contrast input[type=password],
+.contrast input[type=url],
+.contrast input[type=search],
+.contrast input[type=email],
+.contrast input[type=tel],
+.contrast input[type=date],
+.contrast input[type=month],
+.contrast input[type=week],
+.contrast input[type=datetime],
+.contrast input[type=datetime-local],
+.contrast textarea,
+.contrast input[type=number] {
+    background: black !important;
+    border: 1px solid white !important;
+    color: white !important;
+}
+
+.contrast img.on-contrast-force-gray {
+    filter: grayscale(100%) contrast(120%);
+}
+
+.contrast img.on-contrast-force-white {
+    filter: brightness(0) invert(1);
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+  <meta charset="utf-8"/>
+
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <title>SAPD</title>
+
+  <link rel="stylesheet" type="text/css" href="css.css">
+
+  <script src="high-contrast.js"></script> 
+  <script src="tamanhoFonte.js"></script>
+</head>
+
+<body>
+
+  <header>
+
+    <div class="barraAcessibilidade">
+
+        <button id="acessibilidade" href="#altocontraste" id="altocontraste" accesskey="3" onclick="window.toggleContrast()" onkeydown="window.toggleContrast()">Alto contraste</button>
+        <button type="button" id="increase-font">A +</button>
+        <button type="button" id="decrease-font">a -</button>
+      </div>    
+
+    </header>
+
+  <div id="areaBranca">
+
+    <h3 id="tituloSolicitacoes">Nova Solicitação</h3>
+
+    <article class="formulario">
+
+      <form>
+
+        <input type="text" id="titulo" name="título da obra" placeholder="Digite o título da obra"/>
+
+        <input type="text" id="autor" name="autor da obra" placeholder="Digite o autor da obra"/>
+
+        <textarea id="mensagem" name="Observações" placeholder="Digite observações adicionais"></textarea>
+
+      </form>
+
+              <label for="country">Formato do material acessível desejado<br></label>
+
+            <select id="country" name="country">
+
+                  <option value="formato1">PDF/A</option>
+
+                <option value="formato2">Material ampliado</option>
+
+            </select>
+
+      <div class="upload-btn-wrapper">
+
+         <input type="file" name="myfile" title="Selecione o arquivo" />
+
+         <a class="btn" title="Selecione">Selecione o arquivo</a>
+
+      </div>
+
+    </article>
+
+          <div class="icon-ajudaNovaSolicitacao">
+
+      <a href="ajudaNovaSolicitacao.html" class="ajudaNovaSolicitacao"><b>Ajuda</b></a>
+
+          </div>
+
+
+
+          <div class="icon-enviarNovaSolicitacao">
+
+      <a href="telaConfirmacaoSolicitacao.html" class="enviarNovaSolicitacao"><b>Enviar</b></a>
+
+          </div>
+
+
+
+          <div class="icon-voltarNovaSolicitacao">
+
+      <a href="index.html" class="voltarNovaSolicitacao" title="Voltar para a tela de opções"><b>Voltar</b></a>
+
+          </div>
+
+  </div>
+
+</body>
